@@ -16,7 +16,7 @@ class PromiseWithTimeOut<T> {
         return this.promise.then(onFulfilled, onRejected);
     }
 
-    public catch(onRejected: ((reason: string) => PromiseLike<never>) | null | undefined) {
+    public catch(onRejected: ((reason: unknown) => PromiseLike<never>) | null | undefined) {
         return this.promise.catch(onRejected);
     }
 
