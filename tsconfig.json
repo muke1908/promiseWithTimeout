@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "lib":["es2018", "dom"],
+      "target": "es5",
+      "module": "umd",
+      "strict": true,
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "declaration": true,
+    }
+}
