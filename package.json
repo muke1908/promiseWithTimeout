@@ -1,5 +1,5 @@
 {
-  "name": "quickPromise",
+  "name": "@muke1908/quickPromise",
   "version": "0.0.1",
   "author": "Mukesh",
   "main": "dist/index.js",
